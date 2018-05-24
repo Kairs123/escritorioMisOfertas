@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="misOfertasEscritorioPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Usuario</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.ImagenOferta</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.WsDetalleVentas</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.OfertaConsultadaUsuario</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Pais</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.TipoUsuario</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Oferta</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.WsVentasRealizadas</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Comuna</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Region</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Producto</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.DescuentoEmitido</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.PrefTiendaUsuario</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.UsuarioPuntosAcumulados</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Valoracion</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Persona</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Menu</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.PrefRubroUsuario</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Rubro</class>
+    <class>cl.duoc.misOfertasEscritorio.Entities.Tienda</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@knowix.southcentralus.cloudapp.azure.com:1521:orcl"/>
+      <property name="javax.persistence.jdbc.user" value="USR_OFERTAS_DEV"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="XIlocaina123"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
